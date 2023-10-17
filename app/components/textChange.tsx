@@ -20,7 +20,7 @@ const TextRotator: React.FC<{
   }, [texts]);
 
   return (
-    <div className="text-5xl md:text-6xl lg:text-[112px] pb-8 md:pb-0 leading-[0.5em] font-extrabold transition-opacity duration-1000 opacity-100">
+    <div className="text-5xl md:text-6xl lg:text-[112px] pb-8 md:pb-0 leading-[2.5rem] font-extrabold transition-opacity duration-1000 opacity-100">
       {texts[currentIndex]}
     </div>
   );
