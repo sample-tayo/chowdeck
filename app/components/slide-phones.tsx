@@ -76,20 +76,6 @@ const InfiniteScrollAnimation: React.FC = () => {
             height={1053}
             className=" w-[19rem] h-[35rem]"
           />
-          <Image
-            src={acceptOrder}
-            alt="acceptOrder"
-            width={525}
-            height={1053}
-            className=" w-[19rem] h-[35rem]"
-          />
-          <Image
-            src={orderTransit}
-            alt="orderTransit"
-            width={525}
-            height={1053}
-            className=" w-[19rem] h-[35rem]"
-          />
         </div>
       </div>
     </div>

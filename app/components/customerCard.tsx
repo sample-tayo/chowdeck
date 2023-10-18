@@ -43,7 +43,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
           className="flex items-center text-sm font-semibold hover:underline mt-auto mb-5 w-fit"
           href={linkUrl}
         >
-          {linkText}{" "}
+          {linkText}
           <svg
             stroke="currentColor"
             fill="none"

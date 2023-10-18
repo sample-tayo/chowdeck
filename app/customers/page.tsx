@@ -2,6 +2,7 @@ import Hero from "./hero";
 import JoinNetwork from "./pg-third";
 import PageSwitch from "../components/toggleswitch";
 import SlidePhones from "../components/slide-phones";
+import Livelocation from "../components/livelocation";
 
 const Customers: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const Customers: React.FC = () => {
         <Type />
         <SlidePhones />
       </div>
+      <Livelocation />
     </div>
   );
 };

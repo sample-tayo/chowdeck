@@ -31,15 +31,15 @@ const JoinNetwork: React.FC = () => {
           imageUrl={img1}
         />
         <FeatureCard
-          title="Start selling"
-          description="Are you a restaurant owner looking to grow your business? Reach new customers when you join our network."
+          title="Deliver happiness"
+          description="Join our elite league of delivery riders delivering happiness to customers and earn to achieve your dreams while at it."
           linkText="SEE MORE"
           linkUrl="/riders"
           imageUrl={img2}
         />
         <FeatureCard
-          title="Start selling"
-          description="Are you a restaurant owner looking to grow your business? Reach new customers when you join our network."
+          title="Behind the scenes"
+          description="If you are passionate about helping us achieve our goal to deliver meals seamlessly, come join the team."
           linkText="SEE MORE"
           linkUrl="/company"
           imageUrl={img3}
