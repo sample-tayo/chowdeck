@@ -18,7 +18,7 @@ function Hero() {
           objectFit="cover"
         />
       </div>
-      <div className="relative min-h-[80vh] lg:min-h-[50rem] z-10 pt-32 pb-10 text-center">
+      <div className="relative min-h-[60vh] lg:min-h-[50rem] z-10 pt-32 pb-10 text-center">
         <Textchange />
 
         <div className="flex-col mt-4 flex gap-4 lg:flex-row items-center justify-center">

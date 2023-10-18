@@ -4,6 +4,7 @@ import Image from "next/image";
 import logo from "@/public/assets/logo.webp";
 import DropdownButton from "./dropdown";
 import { useState } from "react";
+import "./navhover.css";
 
 const NavBar: React.FC = () => {
   const [isTranslated, setIsTranslated] = useState(false);
@@ -36,18 +37,24 @@ const NavBar: React.FC = () => {
             </Link>
 
             {/* Center - Navigation Links */}
-            <div className="hidden lg:flex bg-white rounded-full py-3 px-10 text-lg gap-8  font-semibold">
-              <Link href="/company">
-                <p className="hover:underline">Company</p>
+            <div className="hidden lg:flex bg-white rounded-full px-4 text-lg font-semibold">
+              <Link
+                href="/company"
+                className="company-link py-4 px-6 text-center inline-block font-semibold"
+              >
+                Company
               </Link>
-              <Link href="/faqs">
-                <p className="hover:underline">FAQs</p>
+              <Link href="/faqs" className="faqs-link py-4 px-6 text-center">
+                FAQs
               </Link>
-              <Link href="/blog">
-                <p className="hover:underline">Blog</p>
+              <Link href="/blog" className="blog-link py-4 px-6 text-center">
+                Blog
               </Link>
-              <Link href="/contact">
-                <p className="hover:underline">Contact</p>
+              <Link
+                href="/contact"
+                className="contact-link py-4 px-6 text-center"
+              >
+                Contact
               </Link>
             </div>
 

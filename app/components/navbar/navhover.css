@@ -1,0 +1,45 @@
+.company-link::before {
+  content: url("~/public/assets/illustration/nav-illos/company-hover.svg");
+  position: absolute;
+  opacity: 0;
+  transform: translateY(0) translateX(-50%);
+}
+
+.company-link:hover::before {
+  opacity: 1;
+  transform: translateY(15px) translateX(20%);
+}
+
+.faqs-link::after {
+  content: url("~/public/assets/illustration/nav-illos/faq-hover-2.svg");
+  position: absolute;
+  opacity: 0;
+  transform: translateY(0) translateX(-50%);
+}
+.faqs-link:hover::after {
+  opacity: 1;
+  transform: translateY(15px) translateX(-80%);
+}
+.faqs-link::before {
+  content: url("~/public/assets/illustration/nav-illos/faq-hover-1.svg");
+  position: absolute;
+  opacity: 0;
+  transform: translateY(0) translateX(-50%);
+}
+
+.faqs-link:hover::before {
+  opacity: 1;
+  transform: translateY(-17px) translateX(-10%);
+}
+
+.contact-link::before {
+  content: url("~/public/assets/illustration/nav-illos/contact-hover.svg");
+  position: absolute;
+  opacity: 0;
+  transform: translateY(0) translateX(-50%);
+}
+
+.contact-link:hover::before {
+  opacity: 1;
+  transform: translateY(-8px) translateX(-10%);
+}
