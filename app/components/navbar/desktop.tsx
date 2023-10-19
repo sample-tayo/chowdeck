@@ -8,9 +8,14 @@ import "./navhover.css";
 
 const NavBar: React.FC = () => {
   const [isTranslated, setIsTranslated] = useState(false);
+  const [isScroll, setIsScroll] = useState(false);
 
   const toggleTranslation = () => {
     setIsTranslated(!isTranslated);
+  };
+
+  const scrollTransition = () => {
+    setIsScroll(!isScroll);
   };
 
   const translateClass = !isTranslated
@@ -22,8 +27,8 @@ const NavBar: React.FC = () => {
         toggleTranslation={toggleTranslation}
         translateClass={translateClass}
       />
-      <nav className=" z-50 w-full sticky top-0 bg-white shadow-md">
-        <div className="absolute top-8 w-full pl-4 pr-4  md:pl-14  md:pr-14">
+      <nav className=" z-50  w-full fixed top-0 py-6 ">
+        <div className=" w-full pl-4 pr-4  md:pl-14  md:pr-14">
           <div className=" flex justify-between items-center">
             {/* Left - Logo */}
             <Link
@@ -60,6 +65,10 @@ const NavBar: React.FC = () => {
 
             {/* Right - Dropdown and Cart */}
             <div className="relative flex items-center justify-center">
+              <div className="hidden md:block">
+                <DropdownButton />
+              </div>
+
               <Link
                 className="inline-flex items-center justify-center rounded-full w-10 h-10 bg-white mr-2"
                 href="/store"
@@ -86,9 +95,6 @@ const NavBar: React.FC = () => {
                   ></path>
                 </svg>
               </Link>
-              <div className="hidden md:block">
-                <DropdownButton />
-              </div>
 
               <span className="lg:hidden">
                 <button

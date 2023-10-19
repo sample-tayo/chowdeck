@@ -46,7 +46,7 @@
 
 @keyframes scroll {
   to {
-    transform: translate(calc(-10% - 5rem));
+    transform: translate(calc(-9.8% - 50rem));
   }
 }
 

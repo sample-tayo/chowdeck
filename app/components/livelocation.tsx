@@ -51,6 +51,66 @@ const Livelocation: React.FC = () => {
               className="w-16 md:w-[90px] absolute top-[5%] right-[10%]"
             />
           </Link>
+
+          <Link href="#">
+            <Image
+              src="https://res.cloudinary.com/chowdeck/image/upload/v1685445670/ojo_914054c5ec.png"
+              alt="lasu"
+              height={90}
+              width={86}
+              className="w-16 md:w-[90px] absolute top-[45%] left-[20%]"
+            />
+          </Link>
+
+          <Link href="#">
+            <Image
+              src="https://res.cloudinary.com/chowdeck/image/upload/v1667900761/Surulere_77593861c4.png"
+              alt="surulere"
+              height={90}
+              width={86}
+              className="w-16 md:w-[90px] absolute top-[40%] left-[55%]"
+            />
+          </Link>
+
+          <Link href="#">
+            <Image
+              src="https://res.cloudinary.com/chowdeck/image/upload/v1685445670/festac_b9ffc9b439.png"
+              alt="festac"
+              height={90}
+              width={86}
+              className="w-16 md:w-[90px] absolute top-[35%] right-[10%]"
+            />
+          </Link>
+
+          <Link href="#">
+            <Image
+              src="https://res.cloudinary.com/chowdeck/image/upload/v1667900760/Ikeja_2dd3121b42.png"
+              alt="ikeja"
+              height={90}
+              width={86}
+              className="w-16 md:w-[90px] absolute bottom-[23%] left-[15%]"
+            />
+          </Link>
+
+          <Link href="#">
+            <Image
+              src="https://res.cloudinary.com/chowdeck/image/upload/v1685445670/egbeda_e37aa3f192.png"
+              alt="egbeda"
+              height={90}
+              width={86}
+              className="w-16 md:w-[90px] absolute bottom-[25%] right-[35%]"
+            />
+          </Link>
+
+          <Link href="#">
+            <Image
+              src="https://res.cloudinary.com/chowdeck/image/upload/v1667900760/Ogudu_e1552ab64b.png"
+              alt="ogudu"
+              height={90}
+              width={86}
+              className="w-16 md:w-[90px] absolute bottom-[15%] right-[15%]"
+            />
+          </Link>
         </div>
       </div>
 

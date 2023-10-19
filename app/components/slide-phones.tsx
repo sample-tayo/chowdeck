@@ -42,7 +42,7 @@ const InfiniteScrollAnimation: React.FC = () => {
           <li>Quick and easy onboarding</li>
           <li>Highly rated riders</li>
           <li>live update on orders</li>
-          <li>20/7 support for customers</li>
+          <li>20/7 support for customers and vendors</li>
         </ul>
       </div>
 
